@@ -10,7 +10,7 @@ Q3: What time is it?
 
 The Q1 and Q2 have similar meaning but Q2 and Q3 do not have a similar meaning. And hence the training data set has the entries
 
-Question1	Question2 	is_repeated
+Question1	Question2 	is_repeated \n
 Q1		Q2		1
 Q2		Q3		0		
 
