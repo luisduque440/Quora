@@ -1,9 +1,3 @@
-"""
-Identifying repeated Quora Questions
-@author: Luis Duque
-luisduque440@gmail.com
-"""
-
 # ABOUT THE PROJECT
 This project was created to work with the Quora Question Pairs data set
 
