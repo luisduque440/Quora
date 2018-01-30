@@ -1,22 +1,24 @@
 """
-Quora pairs Kaggle competition
-Third Quora Submission
+Identifying repeated Quora Questions
 @author: Luis Duque
 luisduque440@gmail.com
 """
 
 ABOUT THE PROJECT
-This project was created to work in the Quora Question Pairs Kaggle competition
-(see details: https://www.kaggle.com/c/quora-question-pairs) 
+This project was created to work withe Quora Question Pairs data set
 
 Basically Quora released a training dataset with more than 400K pairs of questions in which it was known which questions were similar.  The test data set consisted of more than 2M pairs of questions.
 
-Example 1:
+Example: consider the following questions
 Q1: Is Obama giving a speech to the press today?
 Q2: Is the president talking with the journalists today?
 Q3: What time is it?
 
-The Q1 and Q2 have similar meaning but Q2 and Q3 do not have a similar meaning.
+The Q1 and Q2 have similar meaning but Q2 and Q3 do not have a similar meaning. And hence the training data set has the entries
+
+Question1	Question2 	is_repeated
+Q1		Q2		1
+Q2		Q3		0		
 
 
 MY APPROACH
@@ -30,7 +32,7 @@ I constructed around 125 features that can be divided in the following groups
 
 * Abhishel Thakur Features: he shared these features during the competition and many of the top teams were also using them, many of these features overlap with the ones explained before. See: https://github.com/abhishekkrthakur/is_that_a_duplicate_quora_question
 
-In order to make the classification I used Random Forests 
+In order to make the classification I used Random Forests, and tuned them using a GridSearch with cross validation 
 
 
 POTENTIAL IMPROVEMENTS
