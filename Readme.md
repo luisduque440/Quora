@@ -1,5 +1,5 @@
-# ABOUT THE PROJECT
-This project was created to work with the Quora Question Pairs data set
+# Idenfifying duplicate Quora questions 
+This project was created to work with in the Quora Question Pairs data set
 
 Basically Quora released a training dataset with more than 400K pairs of questions in which it was known which questions were similar.  The test data set consisted of more than 2M pairs of questions.
 
@@ -15,7 +15,7 @@ Q1		Q2		1
 Q2		Q3		0		
 
 
-MY APPROACH
+# MY APPROACH
 I constructed around 125 features that can be divided in the following groups
 
 * Very basic features: features involving the size of the questions, the number of words, the number of words not including stop words, number of question marks, number of commas, number of capital letters, flags for the most common first words (are, is, what, would, why, ..) 
@@ -29,7 +29,7 @@ I constructed around 125 features that can be divided in the following groups
 In order to make the classification I used Random Forests, and tuned them using a GridSearch with cross validation 
 
 
-POTENTIAL IMPROVEMENTS
+# POTENTIAL IMPROVEMENTS
 * The document https://medium.com/@InDataLabs/how-to-win-kaggle-competition-based-on-an-nlp-task-not-being-an-nlp-expert-58944df5644c   explains how to create some features that were used by many groups during the competition (and shared between them) that might be interesting to include. A family of this features referred in the document as “magic features” seams to be very relevant to the competition even though it is very dependent on the way the data set was provided and the way in which they organized the document.
 
 * Creating an ensemble of trees using Gradient Boosting seams to be a very popular technique amongst Kagglers that very often outperforms Random Forests. It would be interesting to run XGBoost with the features explained before.
