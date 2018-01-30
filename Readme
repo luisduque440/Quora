@@ -5,7 +5,7 @@ luisduque440@gmail.com
 """
 
 ABOUT THE PROJECT
-This project was created to work withe Quora Question Pairs data set
+This project was created to work with the Quora Question Pairs data set
 
 Basically Quora released a training dataset with more than 400K pairs of questions in which it was known which questions were similar.  The test data set consisted of more than 2M pairs of questions.
 
