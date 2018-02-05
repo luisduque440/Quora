@@ -40,5 +40,3 @@ In order to make the classification I used Random Forests, and tuned them using 
 =======
 # References
 [1]  https://www.kaggle.com/c/quora-question-pairs/data
-
->>>>>>> 1cc85d3adfb8cfa79135958c6d36c73047b09253:Readme.md
