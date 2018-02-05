@@ -36,7 +36,9 @@ In order to make the classification I used Random Forests, and tuned them using 
 
 * Creating an ensemble of trees using Gradient Boosting seams to be a very popular technique amongst Kagglers that very often outperforms Random Forests. It would be interesting to run XGBoost with the features explained before.
 
-<<<<<<< HEAD:Readme
 =======
 # References
 [1]  https://www.kaggle.com/c/quora-question-pairs/data
+
+
+
