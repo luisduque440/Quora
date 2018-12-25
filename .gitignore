@@ -1,6 +1,9 @@
 # comma separated files
 *.csv
 
+# folder containing word embeddings
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
